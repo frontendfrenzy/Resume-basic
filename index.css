@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Londrina+Sketch&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.header-1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.header-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.header-1 h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Londrina Sketch", sans-serif;
+  color: #ffffff;
+}
+.header-1 h2{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header-1 p{
+  transform: translateY(-15px);
+  font-family: "Nunito", sans-serif;
+}
+
+.header-2 ul{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  text-decoration: none;
+}
+.header-2 ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header-2 ul li a{
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  padding: 20px 50px; 
+  background-image: linear-gradient(45deg, rgb(27, 156, 236), rgb(243, 51, 185));
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.About{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  background-image: linear-gradient(45deg,rgb(107, 47, 247), rgb(168, 90, 246), rgb(42, 227, 184));
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.About p{
+  transform: translateY(-10px);
+  font-family: "Nunito", sans-serif;
+  line-height: 25px;
+}
+.About h2{
+  font-family: "Open Sans", sans-serif;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  background-image: linear-gradient(45deg,rgb(107, 47, 247), rgb(168, 90, 246), rgb(42, 227, 184));
+  color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.education p{
+  font-family: "Nunito", sans-serif;
+  transform: translateY(-10px);
+  line-height: 25px;
+}
+.education h2{
+  font-family: "Open Sans", sans-serif;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  background-image: linear-gradient(45deg,rgb(107, 47, 247), rgb(168, 90, 246),rgb(42, 227, 184));
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.skills p{
+  transform: translateY(-10px);
+  font-family: "Nunito", sans-serif;
+  line-height: 25px;
+}
+.skills h2{
+  font-family: "Open Sans", sans-serif;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  background-image: linear-gradient(45deg,rgb(107, 47, 247), rgb(168, 90, 246), rgb(42, 227, 184));
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.projects h2{
+  font-family: "Open Sans", sans-serif;
+}
+.projects p{
+  transform: translateY(-10px);
+  line-height: 25px;
+  font-family: "Nunito", sans-serif;
+}
+.resume{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  background-image: linear-gradient(45deg,rgb(107, 47, 247), rgb(168, 90, 246), rgb(42, 227, 184));
+  border-radius: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.resume h2{
+  font-family: "Open Sans", sans-serif;
+}
+.resume p{
+  transform: translateY(-10px);
+  line-height: 25px;
+  font-family: "Nunito", sans-serif;
+}
+.resume .btn{
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-image: linear-gradient(45deg,rgb(47, 137, 247), rgb(243, 40, 216));
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #000000;
+  color: #ffffff;
+}
